@@ -1,9 +1,8 @@
 # 💸 ExpenseFlow – Smart Expense Tracker
 
-**ExpenseFlow** is a modern and responsive **full-stack expense tracking web application** designed to help users manage their finances efficiently.
-With a clean and elegant dark-themed UI, it allows users to monitor spending, analyze balance, and achieve their financial goals effortlessly.
+Built with modern web technologies, ExpenseFlow features real-time synchronization, multi-currency support, AI-powered categorization, advanced analytics, and robust security. Its responsive dark-themed interface ensures a seamless experience across all devices, making financial management as effortless as it is effective.
 
-The application features a robust Node.js/Express backend with MongoDB database, real-time synchronization, advanced analytics, and comprehensive security measures.
+The application is powered by a scalable Node.js/Express backend with MongoDB, delivering real-time updates, comprehensive analytics, and enterprise-grade security measures.
 
 ---
 ## 🔗 Quick Links
