@@ -57,6 +57,12 @@ router.get('/warehouse', auth, [
       projection.period = 1;
       projection.granularity = 1;
     }
+
+    const data = await DataWarehouse.find(query, projection).sort({ 'period.year': -1, 'period.month': -1 });
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
 });
 
 // Get spending trends
